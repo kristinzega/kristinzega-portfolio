@@ -22,6 +22,7 @@ body {
   margin-bottom: 0.5rem;
   display: block;
   background-color: #0f172a;
+  /* @apply dark:bg-white; */
 }
 
 .hamburger-active > span:nth-child(1) {
@@ -34,4 +35,8 @@ body {
 
 .hamburger-active > span:nth-child(3) {
   transform: rotate(-45deg);
+}
+
+#dark-toggle:checked ~ label div.toggle-circle {
+  transform: translateX(0.95rem);
 }
