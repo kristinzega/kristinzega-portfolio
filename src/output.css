@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=south");
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -692,6 +694,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -710,10 +716,6 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mt-1{
-  margin-top: 0.25rem;
 }
 
 .block{
@@ -772,8 +774,17 @@ video {
   width: 2.25rem;
 }
 
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-full{
   width: 100%;
+}
+
+.max-w-4xl{
+  max-width: 56rem;
 }
 
 .max-w-\[120px\]{
@@ -796,12 +807,20 @@ video {
   max-width: 36rem;
 }
 
-.max-w-2xl{
-  max-width: 42rem;
+.max-w-\[340px\]{
+  max-width: 340px;
 }
 
-.max-w-4xl{
-  max-width: 56rem;
+.max-w-\[850px\]{
+  max-width: 850px;
+}
+
+.max-w-\[3600px\]{
+  max-width: 3600px;
+}
+
+.max-w-\[90px\]{
+  max-width: 90px;
 }
 
 .origin-bottom-left{
@@ -843,6 +862,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .self-end{
@@ -992,6 +1015,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -1072,6 +1105,10 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .font-medium{
   font-weight: 500;
 }
@@ -1110,11 +1147,6 @@ video {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
-.text-violet-500{
-  --tw-text-opacity: 1;
-  color: rgb(139 92 246 / var(--tw-text-opacity));
-}
-
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1122,6 +1154,10 @@ video {
 
 .opacity-50{
   opacity: 0.5;
+}
+
+.opacity-90{
+  opacity: 0.9;
 }
 
 .shadow-lg{
@@ -1411,6 +1447,14 @@ body {
     width: 480px;
   }
 
+  .lg\:w-\[450px\]{
+    width: 450px;
+  }
+
+  .lg\:w-1\/4{
+    width: 25%;
+  }
+
   .lg\:max-w-full{
     max-width: 100%;
   }
@@ -1439,11 +1483,6 @@ body {
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .lg\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .lg\:text-5xl{
